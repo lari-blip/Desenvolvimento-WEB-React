@@ -57,6 +57,14 @@ import movie28 from '../../assets/movie28.jpg';
 import movie29 from '../../assets/movie29.jpg';
 import movie30 from '../../assets/movie30.jpg';
 import movie31 from '../../assets/movie31.jpg';
+import movie32 from '../../assets/movie32.jpg';
+import movie33 from '../../assets/movie33.jpg';
+import movie34 from '../../assets/movie34.jpg';
+import movie35 from '../../assets/movie35.jpg';
+import movie36 from '../../assets/movie36.jpg';
+import movie37 from '../../assets/movie37.jpg';
+import movie38 from '../../assets/movie38.jpg';
+import movie39 from '../../assets/movie39.jpg';
 
 
 import UserProfile from '../../components/UserProfile';
@@ -156,6 +164,20 @@ const Home = () => {
             <Movie><ImgMovie src={movie29} alt="Movie 29" /></Movie>
             <Movie><ImgMovie src={movie30} alt="Movie 30" /></Movie>
             <Movie><ImgMovie src={movie31} alt="Movie 31" /></Movie>
+          </MovieRow>
+        </MovieSection>
+
+        <MovieSection>
+          <SectionTitle>Drama</SectionTitle>
+          <MovieRow>
+            <Movie><ImgMovie src={movie32} alt="Movie 32" /></Movie>
+            <Movie><ImgMovie src={movie33} alt="Movie 33" /></Movie>
+            <Movie><ImgMovie src={movie34} alt="Movie 34" /></Movie>
+            <Movie><ImgMovie src={movie35} alt="Movie 35" /></Movie>
+            <Movie><ImgMovie src={movie36} alt="Movie 36" /></Movie>
+            <Movie><ImgMovie src={movie37} alt="Movie 37" /></Movie>
+            <Movie><ImgMovie src={movie38} alt="Movie 38" /></Movie>
+            <Movie><ImgMovie src={movie39} alt="Movie 39" /></Movie>
 
           </MovieRow>
         </MovieSection>
